@@ -1,3 +1,10 @@
+//Approach: Use a priority queue of type Pair to sort characters by frequency.
+// use a frequency array to count occurrences of each character
+// loop around the string to populate the frequency array
+// push each character and its frequency into the priority queue
+// pop elements from the priority queue to build the result string
+// Time Complexity: O(n log n) where n is the length of the string
+
 #include <queue>
 #include <string>
 #include <utility>
